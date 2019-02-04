@@ -1,0 +1,212 @@
+/*
+Author: Anthony Aplidgiotis
+Date: 11/27/2018
+I, Anthony Aplidgiotis 000767707, certify that this material is my original work. 
+No other person's work has been used without due acknowledgement and I have not made my work available to anyone else.
+
+CSS for sports quiz app
+*/
+
+* {
+    text-align: center;
+    font-family: 'Montserrat Thin', 'Arial', sans-serif;
+    background-color: orange;
+}
+
+.banner {
+    text-decoration: none;  
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    background-color: #5f6063; 
+    padding: 15px;
+    color: white;
+}
+
+h2 {
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+#request {
+	color: white;
+	font-weight: bold;
+}
+
+#quizCard {
+	border: 10px solid black;
+	border-radius: 50px;
+	width: 70%;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+#qheading {
+	font-size: 30px;
+	font-weight: bold;
+	border: 5px solid orange;
+	width: 250px;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+}
+
+#question {
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #5f6063;
+}
+
+#container {
+	border: 2px dashed black;
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#quizCard, #question, #qheading, #container, #feedbackContainer, #feedback, #error, .scoreNumber, #performance, .poor, .soso, .good, .excellent, .qStyle {
+	background-color: white;
+}
+
+#submitBtn {
+	width: 150px;
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	cursor: pointer;
+	border: 5px solid black;
+	border-radius: 4px;
+	margin-top: 20px;
+	background-color: #5f6063;
+	color: white;
+}
+
+#submitBtn:hover {
+	background-color: orange;
+	color: black;
+}
+
+.optionContainer {
+	width: 500px;
+	display: block;
+	padding: 15px;
+	background-color: orange;
+	margin: 0 auto;
+	color: white;
+	border-radius: 15px;
+	font-size: 25px;
+	font-weight: bold;
+	border: 4px solid white;
+}
+
+.optionContainer input:checked .optionContainer{
+	background-color: blue;
+	color: black;
+}
+
+.optionContainer:hover {
+	border: 4px solid black;
+	font-weight: bold;
+	color: black;
+}
+
+#error {
+	color: red;
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#feedbackContainer {
+	width: 50%;
+	text-align: center;
+	border: 10px dotted black;
+	margin: 0 auto;
+	display: none;
+}
+
+#feedback {
+	font-size: 50px;
+	color: black;
+	margin: 0 auto; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.scoreNumber {
+	font-weight: bold;
+	color: orange;
+}
+
+#checkmarks {
+	font-size: 30px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#perfTitle {
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.poor {
+	font-size: 35px;
+	font-weight: bold;
+	color: red;
+	font-family: 'Arial';
+}
+
+.soso {
+	font-size: 35px;
+	font-weight: bold;
+	color: #efe558;
+	font-family: 'Arial';
+}
+
+.good {
+	font-size: 35px;
+	font-weight: bold;
+	color: #10b718;
+	font-family: 'Arial';
+}
+
+.excellent {
+	font-size: 35px;
+	font-weight: bold;
+	color: blue;
+	font-family: 'Arial';
+}
+
+.qStyle {
+	color: orange;
+}
+
+.imageBtn {
+	width: 230px;
+	height: 60px;
+	font-size: 30px;
+	font-weight: bold;
+	cursor: pointer;
+	border: 5px solid black;
+	border-radius: 4px;
+	margin-top: 20px;
+	background-color: #5f6063;
+	color: white;
+}
+
+.imageBtn:hover {
+	background-color: orange;
+	color: black;
+}
+
+
+#imageDisplay {
+	margin: 0 auto;
+	display: none;
+}

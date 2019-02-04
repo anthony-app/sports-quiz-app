@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+Author: Anthony Aplidgiotis
+Date: 11/27/2018
+I, Anthony Aplidgiotis 000767707, certify that this material is my original work. 
+No other person's work has been used without due acknowledgement and I have not made my work available to anyone else.
+
+HTML file to display a sports quiz app to the user
+-->
+<html>
+    
+    <head>
+        
+        <title>Assignment 5 - JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="css\style.css">
+        <script src="js/quizAppArray.js"></script>
+        <script src="js/quiz.js"></script>
+        
+    </head>
+    
+    <body>
+
+        <a class="banner" href="index.html">
+
+            <h1>===&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Sports Quiz App &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp===</h1>
+
+        </a>
+
+        <h2 id="welcome">welcome to the sports quiz</h2>
+
+        <h3 id="request">please answer the following questions</h3>   
+        
+        <br>
+
+        <div id="quizCard">
+
+            <div id="qheading">Questions</div><br>
+
+            <div id="question"></div><br>
+            
+            <div id="container"><br>
+
+                <div class="optionContainer">
+                    <input type="radio" name="answer" id="answer" value="1"> <span id="option1"></span>
+                </div><br>
+
+                <div class="optionContainer">
+                    <input type="radio" name="answer" id="answer" value="2"> <span id="option2"></span>
+                </div><br>
+
+                <div class="optionContainer">
+                    <input type="radio" name="answer" id="answer" value="3"> <span id="option3"></span>
+                </div><br>
+
+                <div class="optionContainer">
+                    <input type="radio" name="answer" id="answer" value="4"> <span id="option4"></span>
+                </div><br>
+
+            </div>
+
+            <button id="submitBtn" class="submitBtn">submit</button>
+
+            <span id="error" src=""></span>
+
+        </div>
+
+        <div id="feedbackContainer">
+
+            <div id="feedback"></div>
+
+            <div id="checkmarks"></div>
+
+            <div id="perfTitle">Performance:</div><br>
+
+            <div id="performance"></div><br>
+
+            <button id="imageBtn" class="imageBtn">Click Me!</button><br>
+
+            <img id="imageDisplay" src="images/bad.gif">
+
+            <br>
+                
+        </div>
+        
+    </body>
+    
+</html> 
+
