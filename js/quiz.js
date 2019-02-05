@@ -1,11 +1,7 @@
 /*
-Author: Anthony Aplidgiotis
-Date: 11/27/2018
-I, Anthony Aplidgiotis 000767707, certify that this material is my original work. 
-No other person's work has been used without due acknowledgement and I have not made my work available to anyone else.
+Author: Anthony A----------
 
 Javascript for the sports quiz app
-Script for index.html (a5)
 */
 
 window.onload = function() { 
