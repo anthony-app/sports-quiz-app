@@ -15,8 +15,9 @@ CSS for sports quiz app
 }
 
 h1 {
+	font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     letter-spacing: 1px;
     background-color: #5f6063; 
     padding: 15px;
